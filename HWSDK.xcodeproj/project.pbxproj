@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F463FF731839F296006AB1EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F463FF721839F296006AB1EE /* Foundation.framework */; };
+		F463FF781839F296006AB1EE /* HWSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F463FF771839F296006AB1EE /* HWSDK.h */; };
+		F463FF7A1839F296006AB1EE /* HWSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F463FF791839F296006AB1EE /* HWSDK.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F463FF6D1839F296006AB1EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				F463FF781839F296006AB1EE /* HWSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F463FF6F1839F296006AB1EE /* libHWSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHWSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F463FF721839F296006AB1EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F463FF761839F296006AB1EE /* HWSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HWSDK-Prefix.pch"; sourceTree = "<group>"; };
+		F463FF771839F296006AB1EE /* HWSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSDK.h; sourceTree = "<group>"; };
+		F463FF791839F296006AB1EE /* HWSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSDK.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F463FF6C1839F296006AB1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F463FF731839F296006AB1EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F463FF661839F296006AB1EE = {
+			isa = PBXGroup;
+			children = (
+				F463FF741839F296006AB1EE /* HWSDK */,
+				F463FF711839F296006AB1EE /* Frameworks */,
+				F463FF701839F296006AB1EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F463FF701839F296006AB1EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F463FF6F1839F296006AB1EE /* libHWSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F463FF711839F296006AB1EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F463FF721839F296006AB1EE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F463FF741839F296006AB1EE /* HWSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F463FF771839F296006AB1EE /* HWSDK.h */,
+				F463FF791839F296006AB1EE /* HWSDK.m */,
+				F463FF751839F296006AB1EE /* Supporting Files */,
+			);
+			path = HWSDK;
+			sourceTree = "<group>";
+		};
+		F463FF751839F296006AB1EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F463FF761839F296006AB1EE /* HWSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F463FF6E1839F296006AB1EE /* HWSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F463FF7D1839F296006AB1EE /* Build configuration list for PBXNativeTarget "HWSDK" */;
+			buildPhases = (
+				F463FF6B1839F296006AB1EE /* Sources */,
+				F463FF6C1839F296006AB1EE /* Frameworks */,
+				F463FF6D1839F296006AB1EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWSDK;
+			productName = HWSDK;
+			productReference = F463FF6F1839F296006AB1EE /* libHWSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F463FF671839F296006AB1EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = HelloWorld;
+			};
+			buildConfigurationList = F463FF6A1839F296006AB1EE /* Build configuration list for PBXProject "HWSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F463FF661839F296006AB1EE;
+			productRefGroup = F463FF701839F296006AB1EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F463FF6E1839F296006AB1EE /* HWSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F463FF6B1839F296006AB1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F463FF7A1839F296006AB1EE /* HWSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F463FF7B1839F296006AB1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F463FF7C1839F296006AB1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F463FF7E1839F296006AB1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HWSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HWSDK/HWSDK-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F463FF7F1839F296006AB1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HWSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HWSDK/HWSDK-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F463FF6A1839F296006AB1EE /* Build configuration list for PBXProject "HWSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F463FF7B1839F296006AB1EE /* Debug */,
+				F463FF7C1839F296006AB1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F463FF7D1839F296006AB1EE /* Build configuration list for PBXNativeTarget "HWSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F463FF7E1839F296006AB1EE /* Debug */,
+				F463FF7F1839F296006AB1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F463FF671839F296006AB1EE /* Project object */;
+}
