@@ -6,8 +6,13 @@
 //  Copyright (c) 2013年 HelloWorld. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef HWSDK_HWSDK_h
+#define HWSDK_HWSDK_h
 
-@interface HWSDK : NSObject
-
-@end
+#import "IO.h"
+#import "OSHelper.h"
+#import "HWConnect.h"
+#import "NSDate+Utils"
+#import "NSString+MD5_32.h"
+#import "UIViewController+BarItem.h"
+#endif

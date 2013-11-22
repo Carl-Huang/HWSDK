@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4564F3F183B0C8300D9FE72 /* HWConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F4564F3E183B0C8300D9FE72 /* HWConnect.m */; };
+		F4564F42183B1C6100D9FE72 /* UIViewController+BarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4564F41183B1C6100D9FE72 /* UIViewController+BarItem.m */; };
 		F463FF731839F296006AB1EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F463FF721839F296006AB1EE /* Foundation.framework */; };
-		F463FF781839F296006AB1EE /* HWSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F463FF771839F296006AB1EE /* HWSDK.h */; };
-		F463FF7A1839F296006AB1EE /* HWSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F463FF791839F296006AB1EE /* HWSDK.m */; };
+		F46645E3183A14EA003439E8 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F46645E2183A14EA003439E8 /* NSDate+Utils.m */; };
+		F46645E6183A150E003439E8 /* IO.m in Sources */ = {isa = PBXBuildFile; fileRef = F46645E5183A150E003439E8 /* IO.m */; };
+		F46645E9183A1840003439E8 /* NSString+MD5_32.m in Sources */ = {isa = PBXBuildFile; fileRef = F46645E8183A1840003439E8 /* NSString+MD5_32.m */; };
+		F46645EC183A1A67003439E8 /* OSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F46645EB183A1A67003439E8 /* OSHelper.m */; };
+		F46645EE183A1AE7003439E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46645ED183A1AE7003439E8 /* UIKit.framework */; };
+		F46645F0183A1B31003439E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46645EF183A1B31003439E8 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,18 +25,30 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				F463FF781839F296006AB1EE /* HWSDK.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F4564F3D183B0C8300D9FE72 /* HWConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWConnect.h; sourceTree = "<group>"; };
+		F4564F3E183B0C8300D9FE72 /* HWConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWConnect.m; sourceTree = "<group>"; };
+		F4564F40183B1C6100D9FE72 /* UIViewController+BarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarItem.h"; sourceTree = "<group>"; };
+		F4564F41183B1C6100D9FE72 /* UIViewController+BarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarItem.m"; sourceTree = "<group>"; };
 		F463FF6F1839F296006AB1EE /* libHWSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHWSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F463FF721839F296006AB1EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F463FF761839F296006AB1EE /* HWSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HWSDK-Prefix.pch"; sourceTree = "<group>"; };
-		F463FF771839F296006AB1EE /* HWSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSDK.h; sourceTree = "<group>"; };
-		F463FF791839F296006AB1EE /* HWSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSDK.m; sourceTree = "<group>"; };
+		F463FF801839F321006AB1EE /* HWSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSDK.h; sourceTree = "<group>"; };
+		F46645E1183A14EA003439E8 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		F46645E2183A14EA003439E8 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		F46645E4183A150E003439E8 /* IO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IO.h; sourceTree = "<group>"; };
+		F46645E5183A150E003439E8 /* IO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IO.m; sourceTree = "<group>"; };
+		F46645E7183A1840003439E8 /* NSString+MD5_32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5_32.h"; sourceTree = "<group>"; };
+		F46645E8183A1840003439E8 /* NSString+MD5_32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5_32.m"; sourceTree = "<group>"; };
+		F46645EA183A1A67003439E8 /* OSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSHelper.h; sourceTree = "<group>"; };
+		F46645EB183A1A67003439E8 /* OSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSHelper.m; sourceTree = "<group>"; };
+		F46645ED183A1AE7003439E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F46645EF183A1B31003439E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46645F0183A1B31003439E8 /* SystemConfiguration.framework in Frameworks */,
+				F46645EE183A1AE7003439E8 /* UIKit.framework in Frameworks */,
 				F463FF731839F296006AB1EE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				F463FF741839F296006AB1EE /* HWSDK */,
+				F463FF751839F296006AB1EE /* Supporting Files */,
 				F463FF711839F296006AB1EE /* Frameworks */,
 				F463FF701839F296006AB1EE /* Products */,
 			);
@@ -65,6 +86,8 @@
 		F463FF711839F296006AB1EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F46645EF183A1B31003439E8 /* SystemConfiguration.framework */,
+				F46645ED183A1AE7003439E8 /* UIKit.framework */,
 				F463FF721839F296006AB1EE /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -73,9 +96,20 @@
 		F463FF741839F296006AB1EE /* HWSDK */ = {
 			isa = PBXGroup;
 			children = (
-				F463FF771839F296006AB1EE /* HWSDK.h */,
-				F463FF791839F296006AB1EE /* HWSDK.m */,
-				F463FF751839F296006AB1EE /* Supporting Files */,
+				F46645F1183A2726003439E8 /* BLE */,
+				F463FF801839F321006AB1EE /* HWSDK.h */,
+				F46645E4183A150E003439E8 /* IO.h */,
+				F46645E5183A150E003439E8 /* IO.m */,
+				F46645E1183A14EA003439E8 /* NSDate+Utils.h */,
+				F46645E2183A14EA003439E8 /* NSDate+Utils.m */,
+				F46645E7183A1840003439E8 /* NSString+MD5_32.h */,
+				F46645E8183A1840003439E8 /* NSString+MD5_32.m */,
+				F4564F3D183B0C8300D9FE72 /* HWConnect.h */,
+				F4564F3E183B0C8300D9FE72 /* HWConnect.m */,
+				F46645EA183A1A67003439E8 /* OSHelper.h */,
+				F46645EB183A1A67003439E8 /* OSHelper.m */,
+				F4564F40183B1C6100D9FE72 /* UIViewController+BarItem.h */,
+				F4564F41183B1C6100D9FE72 /* UIViewController+BarItem.m */,
 			);
 			path = HWSDK;
 			sourceTree = "<group>";
@@ -86,6 +120,14 @@
 				F463FF761839F296006AB1EE /* HWSDK-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = HWSDK;
+			sourceTree = "<group>";
+		};
+		F46645F1183A2726003439E8 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BLE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F463FF7A1839F296006AB1EE /* HWSDK.m in Sources */,
+				F46645E3183A14EA003439E8 /* NSDate+Utils.m in Sources */,
+				F46645E6183A150E003439E8 /* IO.m in Sources */,
+				F46645E9183A1840003439E8 /* NSString+MD5_32.m in Sources */,
+				F46645EC183A1A67003439E8 /* OSHelper.m in Sources */,
+				F4564F3F183B0C8300D9FE72 /* HWConnect.m in Sources */,
+				F4564F42183B1C6100D9FE72 /* UIViewController+BarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +217,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -193,7 +240,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -242,6 +289,7 @@
 				F463FF7F1839F296006AB1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
