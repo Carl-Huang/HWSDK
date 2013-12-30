@@ -30,10 +30,17 @@
     return [UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO;
 }
 //取得ios的版本
-+ (int)versionOfIOS
++ (float)versionOfIOS
 {
-    return [[UIDevice currentDevice].systemVersion intValue];
+    return [[UIDevice currentDevice].systemVersion floatValue];
 }
+
++ (BOOL)iOS7
+{
+    float version = [[self class] versionOfIOS];
+    return version >= 7.0;
+}
+
 //判断是否网络可用
 + (BOOL)isReachable
 {

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C34463391842D41C00B1C867 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C34463381842D41C00B1C867 /* NSString+Utils.m */; };
+		C381AABC185087EA005D4B26 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C381AAB9185087EA005D4B26 /* UIColor+Utils.m */; };
+		C381AABD185087EA005D4B26 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = C381AABB185087EA005D4B26 /* UIImage+Util.m */; };
+		C381AABF18508801005D4B26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C381AABE18508801005D4B26 /* QuartzCore.framework */; };
+		C3FEB0931871C515008EADAA /* VersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEB0921871C515008EADAA /* VersionManager.m */; };
+		C3FEB0961871C530008EADAA /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEB0951871C530008EADAA /* CommonViewController.m */; };
 		F4564F3F183B0C8300D9FE72 /* HWConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F4564F3E183B0C8300D9FE72 /* HWConnect.m */; };
 		F4564F42183B1C6100D9FE72 /* UIViewController+BarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4564F41183B1C6100D9FE72 /* UIViewController+BarItem.m */; };
 		F463FF731839F296006AB1EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F463FF721839F296006AB1EE /* Foundation.framework */; };
@@ -31,6 +37,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C34463371842D41C00B1C867 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "HWSDK/NSString+Utils.h"; sourceTree = SOURCE_ROOT; };
+		C34463381842D41C00B1C867 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utils.m"; path = "HWSDK/NSString+Utils.m"; sourceTree = SOURCE_ROOT; };
+		C34463401842D5DF00B1C867 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C34463561842D5E000B1C867 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C381AAB8185087EA005D4B26 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		C381AAB9185087EA005D4B26 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		C381AABA185087EA005D4B26 /* UIImage+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Util.h"; sourceTree = "<group>"; };
+		C381AABB185087EA005D4B26 /* UIImage+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
+		C381AABE18508801005D4B26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C3FEB0911871C515008EADAA /* VersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionManager.h; sourceTree = "<group>"; };
+		C3FEB0921871C515008EADAA /* VersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionManager.m; sourceTree = "<group>"; };
+		C3FEB0941871C530008EADAA /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		C3FEB0951871C530008EADAA /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		C3FEB0971871C5BD008EADAA /* HWSDK_Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSDK_Constants.h; sourceTree = "<group>"; };
 		F4564F3D183B0C8300D9FE72 /* HWConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWConnect.h; sourceTree = "<group>"; };
 		F4564F3E183B0C8300D9FE72 /* HWConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWConnect.m; sourceTree = "<group>"; };
 		F4564F40183B1C6100D9FE72 /* UIViewController+BarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarItem.h"; sourceTree = "<group>"; };
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C381AABF18508801005D4B26 /* QuartzCore.framework in Frameworks */,
 				F46645F0183A1B31003439E8 /* SystemConfiguration.framework in Frameworks */,
 				F46645EE183A1AE7003439E8 /* UIKit.framework in Frameworks */,
 				F463FF731839F296006AB1EE /* Foundation.framework in Frameworks */,
@@ -86,9 +107,12 @@
 		F463FF711839F296006AB1EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C381AABE18508801005D4B26 /* QuartzCore.framework */,
 				F46645EF183A1B31003439E8 /* SystemConfiguration.framework */,
 				F46645ED183A1AE7003439E8 /* UIKit.framework */,
 				F463FF721839F296006AB1EE /* Foundation.framework */,
+				C34463401842D5DF00B1C867 /* CoreGraphics.framework */,
+				C34463561842D5E000B1C867 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,7 +120,14 @@
 		F463FF741839F296006AB1EE /* HWSDK */ = {
 			isa = PBXGroup;
 			children = (
-				F46645F1183A2726003439E8 /* BLE */,
+				C3FEB0941871C530008EADAA /* CommonViewController.h */,
+				C3FEB0951871C530008EADAA /* CommonViewController.m */,
+				C3FEB0911871C515008EADAA /* VersionManager.h */,
+				C3FEB0921871C515008EADAA /* VersionManager.m */,
+				C381AAB8185087EA005D4B26 /* UIColor+Utils.h */,
+				C381AAB9185087EA005D4B26 /* UIColor+Utils.m */,
+				C381AABA185087EA005D4B26 /* UIImage+Util.h */,
+				C381AABB185087EA005D4B26 /* UIImage+Util.m */,
 				F463FF801839F321006AB1EE /* HWSDK.h */,
 				F46645E4183A150E003439E8 /* IO.h */,
 				F46645E5183A150E003439E8 /* IO.m */,
@@ -104,12 +135,15 @@
 				F46645E2183A14EA003439E8 /* NSDate+Utils.m */,
 				F46645E7183A1840003439E8 /* NSString+MD5_32.h */,
 				F46645E8183A1840003439E8 /* NSString+MD5_32.m */,
+				C34463371842D41C00B1C867 /* NSString+Utils.h */,
+				C34463381842D41C00B1C867 /* NSString+Utils.m */,
 				F4564F3D183B0C8300D9FE72 /* HWConnect.h */,
 				F4564F3E183B0C8300D9FE72 /* HWConnect.m */,
 				F46645EA183A1A67003439E8 /* OSHelper.h */,
 				F46645EB183A1A67003439E8 /* OSHelper.m */,
 				F4564F40183B1C6100D9FE72 /* UIViewController+BarItem.h */,
 				F4564F41183B1C6100D9FE72 /* UIViewController+BarItem.m */,
+				C3FEB0971871C5BD008EADAA /* HWSDK_Constants.h */,
 			);
 			path = HWSDK;
 			sourceTree = "<group>";
@@ -121,13 +155,6 @@
 			);
 			name = "Supporting Files";
 			path = HWSDK;
-			sourceTree = "<group>";
-		};
-		F46645F1183A2726003439E8 /* BLE */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BLE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,10 +210,15 @@
 			files = (
 				F46645E3183A14EA003439E8 /* NSDate+Utils.m in Sources */,
 				F46645E6183A150E003439E8 /* IO.m in Sources */,
+				C3FEB0931871C515008EADAA /* VersionManager.m in Sources */,
+				C381AABD185087EA005D4B26 /* UIImage+Util.m in Sources */,
+				C3FEB0961871C530008EADAA /* CommonViewController.m in Sources */,
 				F46645E9183A1840003439E8 /* NSString+MD5_32.m in Sources */,
+				C381AABC185087EA005D4B26 /* UIColor+Utils.m in Sources */,
 				F46645EC183A1A67003439E8 /* OSHelper.m in Sources */,
 				F4564F3F183B0C8300D9FE72 /* HWConnect.m in Sources */,
 				F4564F42183B1C6100D9FE72 /* UIViewController+BarItem.m in Sources */,
+				C34463391842D41C00B1C867 /* NSString+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +286,7 @@
 				GCC_PREFIX_HEADER = "HWSDK/HWSDK-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -266,6 +299,7 @@
 				GCC_PREFIX_HEADER = "HWSDK/HWSDK-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

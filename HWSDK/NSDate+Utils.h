@@ -1,6 +1,6 @@
 //
 //  NSDate+Utils.h
-//  SafeCampus
+//  HWSDK
 //
 //  Created by Carl on 13-11-6.
 //  Copyright (c) 2013年 carl. All rights reserved.
@@ -25,6 +25,15 @@
  * @return NSDate 返回对应的日期
  */
 + (NSDate *)dateFromString:(NSString *)dateString withFormat:(NSString *)format;
+
+/**
+ @desc 将日期按照一定的格式转化为字符串
+ @param NSString format 日期格式
+ @param NSDate 日期
+ @return NSString 日期字符串
+ */
++ (NSString *)formatDateString:(NSString *)format withDate:(NSDate *)date;
+
 #pragma mark - Instance Methods
 /*
  * @desc 获取当前日期的星期数

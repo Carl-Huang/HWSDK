@@ -22,7 +22,7 @@
 
 - (UIBarButtonItem *)customBarItem:(NSString *)imageName action:(SEL)selector
 {
-    return [self customBarItem:imageName action:selector size:CGSizeMake(35, 60)];
+    return [self customBarItem:imageName action:selector size:CGSizeMake(60, 32)];
 }
 
 - (UIBarButtonItem *)customBarItem:(NSString *)imageName action:(SEL)selector size:(CGSize)itemSize
@@ -35,8 +35,35 @@
     {
         [barButton addTarget:self action:selector forControlEvents:UIControlEventTouchUpInside];
     }
+    else
+    {
+        [barButton addTarget:self action:@selector(pushBack) forControlEvents:UIControlEventTouchUpInside];
+    }
     UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithCustomView:barButton];
     barButton = nil;
     return item;
 }
+
+
+- (void)popVIewController
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)popToRoot
+{
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
+- (void)push:(UIViewController *)viewController
+{
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+#pragma mark - Private Methods
+- (void)pushBack
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 @end

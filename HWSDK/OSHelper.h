@@ -26,9 +26,15 @@
 + (BOOL)iPhone5;
 /*
  * @desc 取得系统的版本号
- * @return int 系统版本
+ * @return float 系统版本
  */
-+ (int)versionOfIOS;
++ (float)versionOfIOS;
+/**
+  * @desc 判断是否是iOS7
+  * @return BOOL
+  */
++ (BOOL)iOS7;
+
 /*
  * @desc 判断是否是网络是否可达
  * @return BOOL

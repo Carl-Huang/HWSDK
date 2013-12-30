@@ -1,6 +1,6 @@
 //
 //  NSDate+Utils.m
-//  SafeCampus
+//  HWSDK
 //
 //  Created by Carl on 13-11-6.
 //  Copyright (c) 2013年 carl. All rights reserved.
@@ -24,6 +24,15 @@
     dateFormatter.dateFormat = format;
     return [dateFormatter dateFromString:dateString];
 }
+
++ (NSString *)formatDateString:(NSString *)format withDate:(NSDate *)date
+{
+    NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.locale = [NSLocale currentLocale];
+    dateFormatter.dateFormat = format;
+    return [dateFormatter stringFromDate:date];
+}
+
 
 #pragma mark - Instance Methods
 - (NSString *)formatDateString:(NSString *)format
